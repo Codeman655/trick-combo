@@ -11,6 +11,12 @@ mounts:
       - frontmount 
       - brain_scrambler
     starter: hand
+  trapeze: &trapeze
+    type: mount
+    names: 
+      - "man_on_the_flying_trapeze"
+      - "trapeze"
+    starter: *side
   one_and_half: &id003
     type: mount
     names: 
