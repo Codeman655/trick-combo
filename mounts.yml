@@ -1,34 +1,22 @@
 mounts: 
-  side: &side
-    type: starter
-    names: 
-      - sidemount
-      - breakaway 
-    starter: hand
-  front: &front
-    type: starter
-    names: 
-      - frontmount 
-      - brain_scrambler
-    starter: hand
   trapeze: &trapeze
     type: mount
-    names: 
+    name: 
       - "man_on_the_flying_trapeze"
       - "trapeze"
-    starter: *side
+    start: *side
   one_and_half: &id003
     type: mount
-    names: 
-      - one_and_a_half
-    starter: *front
+    name: 
+      - "one_and_a_half"
+    start: *front
   split_bottom: &id004
     type: mount
-    names: 
-      - split_bottom
-    starter: *side
+    name: 
+      - "split_bottom"
+    start: *side
   double_or_nothing: &id005
     type: mount
-    names: 
-      - split_bottom
-    starter: *side
+    name: 
+      - "double_or_nothing"
+    start: *side

@@ -1,0 +1,13 @@
+starter: 
+  side: &side
+    type: start
+    name: 
+      - "sidemount"
+      - "breakaway"
+    starter: hand
+  front: &front
+    type: starter
+    name: 
+      - "frontmount "
+      - "brain_scrambler"
+    start: hand
