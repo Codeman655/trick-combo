@@ -1,6 +1,6 @@
-.elements { 
-  width: 150px;
-  height: 150px;
-  padding: 0.5em;
+.element { 
+  width: 120px;
+  height: fit-content;
+  padding: 5px;
   border: 1px solid black;
 }

@@ -1,4 +1,3 @@
 $( function() {
-  $( "#draggable" ).draggable();
-  $( "#draggable2" ).draggable();
+  $( ".element" ).draggable({ snap: true });
 } );
